@@ -1,37 +1,35 @@
-# 💜 .dotfiles | Void Linux + i3wm Setup
+# .dotfiles | Void Linux + i3wm
 
-Добро пожаловать в мой минималистичный, кастомный сетап, построенный вокруг **KISS-принципа** (Keep It Simple, Stupid). Система очищена от цифрового мусора, работает со скоростью мысли и жрёт всего около 8% оперативной памяти на старте.
-
-> *"Да, я сторонник KISS-принципа, так что всё статично и утилитарно."* ---
-
-## 💻 Спецификации системы & Софт
-
-| Компонент | Выбор | Описание |
-| :--- | :--- | :--- |
-| **OS** | `Void Linux` | Независимый дистрибутив, быстрый XBPS, никакого Systemd |
-| **WM** | `i3wm` | Тайлинговый оконный менеджер, управление полностью с клавы |
-| **Terminal** | `Kitty` | Шустрый, с GPU-ускорением и отличной графикой |
-| **Shell** | `Zsh` | С плагином автодополнения (`zsh-autosuggestions`) |
-| **Bar** | `Polybar` | Кастомная статусная панель в фиолетовых тонах |
-| **File Manager** | `Thunar` | Легковесный GUI-менеджер из XFCE, чисто для удобства |
-| **Editor** | `Neovim` | Один редактор для всего — от конфигов до заметок |
-| **Font** | `Iosevka NF` | Узкий, компактный шрифт с поддержкой Nerd-иконок |
+My minimal, keyboard-driven setup built around the **KISS principle** (Keep It Simple, Stupid). No digital clutter, no background bloat, and no animation lag. It just gets out of the way and works, using around 8% of RAM on idle.
 
 ---
 
-## 🎨 Особенности сетапа
+## 🛠️ The Core Stack
 
-* **Аналоговый контроль звука:** Никакого лишнего софта в фоне — громкость регулируется исключительно крутилками на наушниках и колонках.
-* **Ручное монтирование:** Никаких авто-маунтеров. Только хардкорный `sudo mount` в терминале по мере необходимости.
-* **Статичная эстетика:** Обои статичны (фиолетовые горы), SDDM кастомизирован через тему Sugar Candy.
-* **Zero Waste:** В системе нет ни одной мусорной утилиты. Только то, что реально используется каждый день.
+* **OS:** [Void Linux](https://voidlinux.org/) (Independent, systemd-free, lightning-fast `xbps`)
+* **WM:** `i3wm` (Pure tiling efficiency, fully customized via keyboard shortcuts)
+* **Terminal:** `Kitty` (GPU-accelerated, handles graphics natively, very snappy)
+* **Shell:** `Zsh` (Enhanced with `zsh-autosuggestions` to save keystrokes)
+* **Bar:** `Polybar` (Clean status bar tailored with a subtle purple aesthetic)
+* **File Manager:** `Thunar` (Lightweight XFCE file manager, kept purely for convenience)
+* **Editor:** `Neovim` (The single tool for everything: configs, code, and quick notes)
+* **Font:** `Iosevka NF` (A sharp, condensed font that maximizes screen real estate)
 
 ---
 
-## 🛠️ Как это развернуть (Шпаргалка для бэкапа)
+## 🎨 Design Philosophy & Quirks
 
-Если мне (или кому-то ещё) понадобится накатить эти конфиги на чистую систему:
+* **Hardware Volume Control:** No audio mixer daemons running in the background. Volume is managed entirely via physical dials on my headphones and speakers.
+* **Manual Mounting:** Zero auto-mounting services. It's just a quick `sudo mount` in the terminal when a flash drive is actually needed. 
+* **Static Visuals:** Everything is static. Purple mountain wallpaper, standard `xset` display timeouts, and a customized SDDM login screen using the Sugar Candy theme.
+* **Zero Waste:** No "rice aesthetic" bloatware or terminal matrices installed just for screenshots. Every single utility here has a daily practical purpose.
 
-1. Склонировать репозиторий:
+---
+
+## 🚀 Quick Replication
+
+A quick reminder for myself (or anyone else) on how to deploy this setup on a fresh machine:
+
+1. Clone the repo:
    ```bash
    git clone [https://github.com/proxoroprysko-jpg/dotfiles_i3_void.git](https://github.com/proxoroprysko-jpg/dotfiles_i3_void.git) ~/dotfiles
