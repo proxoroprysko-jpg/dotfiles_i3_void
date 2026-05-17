@@ -1,4 +1,4 @@
-# .dotfiles | Void Linux + i3wm
+# 💜 .dotfiles | Void Linux + i3wm
 
 My minimal, keyboard-driven setup built around the **KISS principle** (Keep It Simple, Stupid). No digital clutter, no background bloat, and no animation lag. It just gets out of the way and works, using around 8% of RAM on idle.
 
